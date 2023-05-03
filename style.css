@@ -1,0 +1,409 @@
+@charset "utf8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background-color: #22212C;
+}
+
+main{
+    position: relative;
+    width: 1440px;
+    height: 1458px;
+    padding-bottom: 58px;
+}
+
+
+/*perfil*/
+
+.content-porfile h2 {
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    line-height: 28px;
+    font-weight: 700;
+    font: 23px;
+}
+
+.content-porfile p {
+    position: absolute;
+    left: 110px;
+    top: 226px;
+    line-height: 16px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.container-porfile {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 348px;
+    height: 292px;
+}
+
+.porfile {
+    position: absolute;
+    left: 110px;
+    top: 32px;
+
+}
+
+#frame {
+    display: flex;
+    background-color: #00FF00;
+    width: 125px;
+    padding: 3px;
+    border-radius: 100%;
+
+}
+
+#image-porfile {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*links*/
+.container-social a{
+    text-decoration: none;
+}
+.container-social {
+    position: absolute;
+    left: 40px;
+    top: 362px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 348px;
+    height: 280px;
+}
+
+#social-list {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    list-style-type: none;
+}
+
+#social-list li {
+    display: flex;
+    margin-bottom: 20px;
+    
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.text-item-1,.text-item-2,
+.text-item-3,.text-item-4,
+.text-item-5 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+ 
+/*tecnologias*/
+
+.container-technologies{
+    position: absolute;
+    left: 40px;
+    top: 672px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 348px;
+    height: 208px;
+}
+.title-tech{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+#technolog-itens{
+    position: absolute;
+    left: 30px;
+    top: 76px;
+    font-Weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    list-style-type: none;
+}
+
+
+#technolog-itens li {
+    display: inline-block;
+    background-color:#CB92B1;
+    border-radius:30px;
+    width: 86px;
+    height: 24px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.technolog{
+    position: relative;
+    top: 7px;
+   color: #000000;
+}
+
+/*Experiencias*/
+
+.container-experience{
+    position: absolute;
+    left: 40px;
+    top: 910px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 348px;
+    height: 300px;
+}
+
+.title-exper{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.exper-list ul{
+    position: absolute;
+    left: 66px;
+    top: 76px;
+    
+}
+
+.exper-list h2{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+
+}
+.exper-list p{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+/*Educação*/
+
+.container-education{
+    position: absolute;
+    left: 40px;
+    top: 1240px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 348px;
+    height: 220px;
+}
+
+.title-educ{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.educ-list ul{
+    position: absolute;
+    left: 66px;
+    top: 76px;
+    
+}
+
+.educ-list h2{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+
+}
+.educ-list p{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+/*Meu projeto*/
+
+.container-my-projects{
+    position: absolute;
+    left: 448px;
+    top: 40px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 952px;
+    height: 86px;
+}
+
+.title-projec{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.item-all a{
+    text-decoration: none;
+}
+
+.item-all{
+    position: absolute;
+    left: 851px;
+    top: 38px;
+}
+
+/*Onix*/
+
+.container-onix-1{
+    position: absolute;
+    left: 448px;
+    top: 157px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 461px;
+    height: 186px;
+}
+
+
+.container-onix-2{
+    position: absolute;
+    left: 939px;
+    top: 157px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 461px;
+    height: 186px;
+}
+
+.icon-onix{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.icon-onix h2{
+    display: inline;
+    position: relative;
+    left: 16px;
+}
+
+.content-onix{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+}
+
+#icon-indic-1{
+    position: absolute;
+    left: 30px;
+    top: 136px;
+}
+
+#icon-indic-2{
+    position: absolute;
+    left: 102px;
+    top: 136px;
+}
+
+.indic-icons p, #js-icon p{
+    display: inline;
+    position: relative;
+    left: 8px;
+    bottom: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#js-icon{
+    position: absolute;
+    left: 339px;
+    top: 138px;
+}
+
+/*Posts*/
+
+.container-posts{
+    position: absolute;
+    left: 448px;
+    top: 373px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 952px;
+    height: 86px;
+}
+
+.title-post{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+/*Postagens*/
+.container-loads{
+    position: absolute;
+    left: 448px;
+    top: 489px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 952px;
+    height: 201px;
+}
+.container-loads p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.porfile-picture{
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    width: 128px;
+}
+#content-loads h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+#content-loads h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#content-loads{
+    position: absolute;
+    left: 178px;
+    top: 30px;
+}
+#tags-loads p{
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+#tags-loads{
+    position: absolute;
+    left: 178px;
+    top: 138px;
+}
